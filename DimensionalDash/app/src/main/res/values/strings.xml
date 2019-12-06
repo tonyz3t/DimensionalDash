@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SideScrollRunner</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="play_game">Play Game</string>
+    <string name="stats">Stats</string>
+    <string name="store">Store</string>
+</resources>
