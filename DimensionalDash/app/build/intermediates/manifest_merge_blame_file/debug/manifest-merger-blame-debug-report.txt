@@ -6,9 +6,9 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="19"
-8-->C:\git\DimensionalDash\app\src\main\AndroidManifest.xml
+8-->C:\git\DimensionalDash\DimensionalDash\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="28" />
-9-->C:\git\DimensionalDash\app\src\main\AndroidManifest.xml
+9-->C:\git\DimensionalDash\DimensionalDash\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
 11-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\a88f766156874b74e9d4565af1f1d905\jetified-firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:22:5-67
@@ -27,34 +27,34 @@
 15-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\ad480785cb1f30b990d04b2e1d63bb3d\jetified-firebase-iid-17.0.3\AndroidManifest.xml:26:22-79
 16
 17    <application
-17-->C:\git\DimensionalDash\app\src\main\AndroidManifest.xml:5:5-19:19
+17-->C:\git\DimensionalDash\DimensionalDash\app\src\main\AndroidManifest.xml:5:5-19:19
 18        android:allowBackup="true"
-18-->C:\git\DimensionalDash\app\src\main\AndroidManifest.xml:6:9-35
+18-->C:\git\DimensionalDash\DimensionalDash\app\src\main\AndroidManifest.xml:6:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 19-->[androidx.core:core:1.0.1] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\668f92656ea417a5dbfea6d82592adcd\core-1.0.1\AndroidManifest.xml:22:18-86
 20        android:debuggable="true"
 21        android:icon="@mipmap/ic_launcher"
-21-->C:\git\DimensionalDash\app\src\main\AndroidManifest.xml:7:9-43
+21-->C:\git\DimensionalDash\DimensionalDash\app\src\main\AndroidManifest.xml:7:9-43
 22        android:label="@string/app_name"
-22-->C:\git\DimensionalDash\app\src\main\AndroidManifest.xml:8:9-41
+22-->C:\git\DimensionalDash\DimensionalDash\app\src\main\AndroidManifest.xml:8:9-41
 23        android:roundIcon="@mipmap/ic_launcher_round"
-23-->C:\git\DimensionalDash\app\src\main\AndroidManifest.xml:9:9-54
+23-->C:\git\DimensionalDash\DimensionalDash\app\src\main\AndroidManifest.xml:9:9-54
 24        android:supportsRtl="true"
-24-->C:\git\DimensionalDash\app\src\main\AndroidManifest.xml:10:9-35
+24-->C:\git\DimensionalDash\DimensionalDash\app\src\main\AndroidManifest.xml:10:9-35
 25        android:theme="@style/AppTheme" >
-25-->C:\git\DimensionalDash\app\src\main\AndroidManifest.xml:11:9-40
+25-->C:\git\DimensionalDash\DimensionalDash\app\src\main\AndroidManifest.xml:11:9-40
 26        <activity android:name="com.tonyz3t.android.dimensionaldash.MainActivity" >
-26-->C:\git\DimensionalDash\app\src\main\AndroidManifest.xml:12:9-18:20
-26-->C:\git\DimensionalDash\app\src\main\AndroidManifest.xml:12:19-47
+26-->C:\git\DimensionalDash\DimensionalDash\app\src\main\AndroidManifest.xml:12:9-18:20
+26-->C:\git\DimensionalDash\DimensionalDash\app\src\main\AndroidManifest.xml:12:19-47
 27            <intent-filter>
-27-->C:\git\DimensionalDash\app\src\main\AndroidManifest.xml:13:13-17:29
+27-->C:\git\DimensionalDash\DimensionalDash\app\src\main\AndroidManifest.xml:13:13-17:29
 28                <action android:name="android.intent.action.MAIN" />
-28-->C:\git\DimensionalDash\app\src\main\AndroidManifest.xml:14:17-69
-28-->C:\git\DimensionalDash\app\src\main\AndroidManifest.xml:14:25-66
+28-->C:\git\DimensionalDash\DimensionalDash\app\src\main\AndroidManifest.xml:14:17-69
+28-->C:\git\DimensionalDash\DimensionalDash\app\src\main\AndroidManifest.xml:14:25-66
 29
 30                <category android:name="android.intent.category.LAUNCHER" />
-30-->C:\git\DimensionalDash\app\src\main\AndroidManifest.xml:16:17-77
-30-->C:\git\DimensionalDash\app\src\main\AndroidManifest.xml:16:27-74
+30-->C:\git\DimensionalDash\DimensionalDash\app\src\main\AndroidManifest.xml:16:17-77
+30-->C:\git\DimensionalDash\DimensionalDash\app\src\main\AndroidManifest.xml:16:27-74
 31            </intent-filter>
 32        </activity>
 33        <activity
