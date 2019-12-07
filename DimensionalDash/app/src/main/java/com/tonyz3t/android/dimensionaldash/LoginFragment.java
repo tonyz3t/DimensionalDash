@@ -182,6 +182,7 @@ public class LoginFragment extends Fragment {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()) {
                             //sign in success
+                            // notify user and then go to main menu
                             Log.d(TAG, "Sign in successfull");
                             FirebaseUser user = mAuth.getCurrentUser();
                             Toast.makeText(getActivity(), "sign in success", Toast.LENGTH_SHORT).show();

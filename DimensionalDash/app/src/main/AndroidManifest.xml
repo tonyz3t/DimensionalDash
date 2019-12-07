@@ -16,9 +16,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainMenuActivity"
-            android:parentActivityName=".LoginActivity">
-        </activity>
-        <activity android:name=".LevelOneActivity"/>
+            android:parentActivityName=".LoginActivity"/>
+        <activity android:name=".LevelOneActivity"
+            android:screenOrientation="landscape"/>
     </application>
 
 </manifest>

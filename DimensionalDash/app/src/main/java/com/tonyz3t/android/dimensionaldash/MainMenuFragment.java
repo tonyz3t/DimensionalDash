@@ -1,5 +1,6 @@
 package com.tonyz3t.android.dimensionaldash;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-class MainMenuFragment extends Fragment {
+public class MainMenuFragment extends Fragment {
     private static final String TAG = "MainMenuFragment";
 
     private Button mPlayGameButton;
@@ -29,7 +30,8 @@ class MainMenuFragment extends Fragment {
         mPlayGameButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Start the game.
+                Intent intent = new Intent(getActivity(), LevelOneActivity.class);
+                startActivity(intent);
             }
         });
 
