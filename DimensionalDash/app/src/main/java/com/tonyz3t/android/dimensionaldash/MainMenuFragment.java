@@ -7,6 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
@@ -17,6 +19,15 @@ public class MainMenuFragment extends Fragment {
     private Button mPlayGameButton;
     private Button mStatsButton;
     private Button mStoreButton;
+    private Button mSignOutButton;
+
+    private FirebaseAuth mAuth;
+
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        mAuth = FirebaseAuth.getInstance();
+    }
 
     @Nullable
     @Override
@@ -26,6 +37,7 @@ public class MainMenuFragment extends Fragment {
         mPlayGameButton = (Button) v.findViewById(R.id.playgame_button);
         mStatsButton = (Button) v.findViewById(R.id.stats_button);
         mStoreButton = (Button) v.findViewById(R.id.stats_button);
+        mSignOutButton = (Button) v.findViewById(R.id.signout_button_menu);
 
         mPlayGameButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,6 +46,16 @@ public class MainMenuFragment extends Fragment {
                 startActivity(intent);
             }
         });
+
+        mSignOutButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mAuth.signOut();
+                getActivity().finish();
+            }
+        });
+
+
 
         return v;
     }

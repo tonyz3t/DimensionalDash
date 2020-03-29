@@ -3,35 +3,35 @@
 3    package="com.tonyz3t.android.dimensionaldash.test" >
 4
 5    <uses-sdk
-5-->C:\git\DimensionalDash\DimensionalDash\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5227660506023302078.xml:5:5-74
+5-->C:\git\DimensionalDash\DimensionalDash\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8107265985654452508.xml:5:5-74
 6        android:minSdkVersion="19"
-6-->C:\git\DimensionalDash\DimensionalDash\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5227660506023302078.xml:5:15-41
+6-->C:\git\DimensionalDash\DimensionalDash\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8107265985654452508.xml:5:15-41
 7        android:targetSdkVersion="28" />
-7-->C:\git\DimensionalDash\DimensionalDash\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5227660506023302078.xml:5:42-71
+7-->C:\git\DimensionalDash\DimensionalDash\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8107265985654452508.xml:5:42-71
 8
 9    <instrumentation
-9-->C:\git\DimensionalDash\DimensionalDash\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5227660506023302078.xml:11:5-15:85
+9-->C:\git\DimensionalDash\DimensionalDash\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8107265985654452508.xml:11:5-15:85
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->C:\git\DimensionalDash\DimensionalDash\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5227660506023302078.xml:11:22-76
+10-->C:\git\DimensionalDash\DimensionalDash\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8107265985654452508.xml:11:22-76
 11        android:functionalTest="false"
-11-->C:\git\DimensionalDash\DimensionalDash\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5227660506023302078.xml:14:22-52
+11-->C:\git\DimensionalDash\DimensionalDash\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8107265985654452508.xml:14:22-52
 12        android:handleProfiling="false"
-12-->C:\git\DimensionalDash\DimensionalDash\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5227660506023302078.xml:13:22-53
+12-->C:\git\DimensionalDash\DimensionalDash\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8107265985654452508.xml:13:22-53
 13        android:label="Tests for com.tonyz3t.android.dimensionaldash"
-13-->C:\git\DimensionalDash\DimensionalDash\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5227660506023302078.xml:15:22-83
+13-->C:\git\DimensionalDash\DimensionalDash\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8107265985654452508.xml:15:22-83
 14        android:targetPackage="com.tonyz3t.android.dimensionaldash" />
-14-->C:\git\DimensionalDash\DimensionalDash\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5227660506023302078.xml:12:22-81
+14-->C:\git\DimensionalDash\DimensionalDash\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8107265985654452508.xml:12:22-81
 15
 16    <uses-permission android:name="android.permission.REORDER_TASKS" />
 16-->[androidx.test:core:1.1.0] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\84e5da2147b6380246a7aa3bdcbecf38\core-1.1.0\AndroidManifest.xml:24:5-72
 16-->[androidx.test:core:1.1.0] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\84e5da2147b6380246a7aa3bdcbecf38\core-1.1.0\AndroidManifest.xml:24:22-69
 17
 18    <application android:debuggable="true" >
-18-->C:\git\DimensionalDash\DimensionalDash\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5227660506023302078.xml:7:5-9:19
-18-->C:\git\DimensionalDash\DimensionalDash\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5227660506023302078.xml:7:18-43
+18-->C:\git\DimensionalDash\DimensionalDash\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8107265985654452508.xml:7:5-9:19
+18-->C:\git\DimensionalDash\DimensionalDash\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8107265985654452508.xml:7:18-43
 19        <uses-library android:name="android.test.runner" />
-19-->C:\git\DimensionalDash\DimensionalDash\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5227660506023302078.xml:8:9-60
-19-->C:\git\DimensionalDash\DimensionalDash\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5227660506023302078.xml:8:23-57
+19-->C:\git\DimensionalDash\DimensionalDash\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8107265985654452508.xml:8:9-60
+19-->C:\git\DimensionalDash\DimensionalDash\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger8107265985654452508.xml:8:23-57
 20
 21        <activity
 21-->[androidx.test:core:1.1.0] C:\Users\Tony\.gradle\caches\transforms-2\files-2.1\84e5da2147b6380246a7aa3bdcbecf38\core-1.1.0\AndroidManifest.xml:27:9-33:20
